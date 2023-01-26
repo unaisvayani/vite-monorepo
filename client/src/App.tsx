@@ -1,4 +1,7 @@
-import { User, GreetUser, FancyButton, Textbox } from "@monorepo/shared";
+import { FancyButton, Textbox } from "@monorepo/shared/ui";
+import { greetUser } from "@monorepo/shared/functions";
+import { User } from "@monorepo/shared/interfaces";
+
 import "./App.css";
 
 function App() {
@@ -10,7 +13,7 @@ function App() {
   };
 
   const onGreetClicked = () => {
-    GreetUser(user);
+    greetUser(user);
   };
 
   const handleClick = () => {

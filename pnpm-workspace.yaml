@@ -1,4 +1,4 @@
 packages:
-  - "admin"
-  - "client"
-  - "shared"
+  - "admin/**"
+  - "client/**"
+  - "shared/**"
