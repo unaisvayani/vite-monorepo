@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@monorepo/shared": "workspace:*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@monorepo/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
