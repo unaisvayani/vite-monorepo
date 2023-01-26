@@ -25,15 +25,15 @@ importers:
 
   admin:
     specifiers:
-      '@monorepo/shared': workspace:*
+      '@recx/shared': workspace:*
     dependencies:
-      '@monorepo/shared': link:../shared
+      '@recx/shared': link:../shared
 
   client:
     specifiers:
-      '@monorepo/shared': workspace:*
+      '@recx/shared': workspace:*
     dependencies:
-      '@monorepo/shared': link:../shared
+      '@recx/shared': link:../shared
 
   shared:
     specifiers:

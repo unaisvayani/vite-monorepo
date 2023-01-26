@@ -1,6 +1,6 @@
-import { FancyButton, Textbox } from "@monorepo/shared/ui";
-import { greetUser } from "@monorepo/shared/functions";
-import { User } from "@monorepo/shared/interfaces";
+import { FancyButton, Textbox } from "@recx/shared/ui";
+import { greetUser } from "@recx/shared/functions";
+import { User } from "@recx/shared/interfaces";
 
 import "./App.css";
 
@@ -14,10 +14,6 @@ function App() {
 
   const onGreetClicked = () => {
     greetUser(user);
-  };
-
-  const handleClick = () => {
-    console.log("Button clicked!");
   };
 
   return (

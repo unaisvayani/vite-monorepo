@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@monorepo/shared": "workspace:*"
+    "@recx/shared": "workspace:*"
   },
   "devDependencies": {}
 }
